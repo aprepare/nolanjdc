@@ -1,4 +1,4 @@
-# 原作者已删库，此为备份原镜像nolanjdc2.4
+# 原作者已删库，此为备份原镜像nolanjdc2.3
 
 
 ## 注意 注意注意
@@ -186,7 +186,7 @@ sudo docker run   --name nolanjdc -p 5701:80 -d  -v  "$(pwd)":/app \
 由于有定时任务 需要设置 时区 假设群辉拉的源码在 /volume1/docker/nvjdc 目录
 ```
 sudo docker run   --name nolanjdc -p 5701:80 -d  -v  /volume1/docker/nvjdc:/app \
--it --privileged=true  nolanhzy/nvjdc:latest
+-it --privileged=true  liqinghuan/nvjdc:latest
 ```
 进入容器
 ```
