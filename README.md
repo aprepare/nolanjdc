@@ -51,7 +51,7 @@
 1拉源码
 国内
 ```
-git clone -b main https://github.com/Melanchth/nolanjdc.git
+git clone -b main https://github.com/meetclover/nolanjdc.git
 ```
 
 
